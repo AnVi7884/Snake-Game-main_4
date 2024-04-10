@@ -207,9 +207,9 @@ function checkCollision() {
   }
 
   for (let i = 1; i < snake.length; i++) {
-    if (head.x === snake[i].x && head.y === snake[i].y) {
+    /*if (head.x === snake[i].x && head.y === snake[i].y) {
       resetGame();
-    }
+    }*/
   }
 }
 
